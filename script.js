@@ -218,6 +218,8 @@ btnClose.addEventListener('click',function(e){
     // Delete Account
     accounts.splice(index, 1);
     
+    document.querySelector('.welcome').innerHTML="Log in to get started";
+
     // Hide UI
     containerApp.style.opacity = 0;
     
